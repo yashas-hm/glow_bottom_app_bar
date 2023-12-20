@@ -1,5 +1,4 @@
 # Glow Bottom App Bar
-<hr>
 
 Beautiful and easy to use glowing transition bottom app bar which s fully customizable.
 
@@ -11,7 +10,6 @@ Resources:
  - [Pub Package]()
 
 ## Usage
-<hr>
 
 ```dart
 class DemoScreen extends StatelessWidget {
@@ -46,7 +44,6 @@ class DemoScreen extends StatelessWidget {
 ```
 
 ### Demo
-<hr>
 
 ![Simulator Screen Recording - iPhone 15 Pro Max - 2023-12-20 at 22 12 53](https://github.com/yashas-hm/glow_bottom_app_bar/assets/64674824/95946c22-7ebe-46c2-8f90-8b099c062354)
 
