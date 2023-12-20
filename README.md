@@ -3,7 +3,7 @@
 
 Beautiful and easy to use glowing transition bottom app bar which s fully customizable.
 
-#### **Show some ♥️ and star the repo to support the project**
+### **Show some ♥️ and star the repo to support the project**
 
 Resources:
  - [GitHub Repo]()
@@ -48,6 +48,7 @@ class DemoScreen extends StatelessWidget {
 ### Demo
 <hr>
 
+![Simulator Screen Recording - iPhone 15 Pro Max - 2023-12-20 at 22 12 53](https://github.com/yashas-hm/glow_bottom_app_bar/assets/64674824/95946c22-7ebe-46c2-8f90-8b099c062354)
 
 
 You can customise using parameters like:
