@@ -7,7 +7,7 @@ Beautiful and easy to use glowing transition bottom app bar which s fully custom
 Resources:
  - [GitHub Repo](https://github.com/yashas-hm/glow_bottom_app_bar)
  - [Example](https://github.com/yashas-hm/glow_bottom_app_bar/tree/main/example)
- - [Pub Package]()
+ - [Pub Package](https://pub.dev/packages/glow_bottom_app_bar)
 
 ## Usage
 
