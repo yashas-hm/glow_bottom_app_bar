@@ -5,3 +5,8 @@
 ## 1.1.0
 
 * Fixed platform specifications.
+
+## 1.2.0
+
+* Disposing Animation Controller
+* Changes to SingleTickerProvideMixin
