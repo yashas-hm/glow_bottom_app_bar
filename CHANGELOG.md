@@ -1,3 +1,7 @@
 ## 1.0.0
 
 * Simple BottomAppBar with Glowing Transition Effect.
+
+## 1.1.0
+
+* Fixed platform specifications.
