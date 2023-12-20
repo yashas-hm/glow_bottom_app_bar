@@ -41,7 +41,7 @@ class GlowBottomAppBar extends StatefulWidget {
 }
 
 class _GlowBottomAppBarState extends State<GlowBottomAppBar>
-    with TickerProviderStateMixin {
+    with SingleTickerProviderStateMixin {
   final Map<GlobalKey, Widget> list = {};
   final List<GlobalKey> keys = [];
   int oldIndex = 0;
@@ -53,6 +53,12 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
   Color? background;
   double? width;
   double? margin;
+
+  @override
+  void dispose() {
+    animationController.dispose();
+    super.dispose();
+  }
 
   @override
   void initState() {
