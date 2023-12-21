@@ -107,9 +107,9 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
   }
 
   void createSlideAnim(
-      double begin,
-      double end,
-      ) {
+    double begin,
+    double end,
+  ) {
     slideAnim = Tween<double>(
       begin: begin,
       end: end,
@@ -199,8 +199,8 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
                   width: widget.iconSize,
                   alignment: Alignment.center,
                   child: Container(
-                    height: 1 ,
-                    width: 1 ,
+                    height: 1,
+                    width: 1,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: widget.glowColor,

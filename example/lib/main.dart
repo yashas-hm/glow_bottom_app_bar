@@ -55,14 +55,32 @@ class _DemoScreenState extends State<DemoScreen> {
         iconSize: 35,
         glowColor: Colors.redAccent,
         selectedChildren: const [
-          Icon(Icons.ac_unit, color: Colors.redAccent,),
-          Icon(Icons.adb_rounded, color: Colors.redAccent,),
-          Icon(Icons.account_circle_rounded, color: Colors.redAccent,),
+          Icon(
+            Icons.ac_unit,
+            color: Colors.redAccent,
+          ),
+          Icon(
+            Icons.adb_rounded,
+            color: Colors.redAccent,
+          ),
+          Icon(
+            Icons.account_circle_rounded,
+            color: Colors.redAccent,
+          ),
         ],
         children: const [
-          Icon(Icons.ac_unit, color: Colors.white,),
-          Icon(Icons.adb_rounded, color: Colors.white,),
-          Icon(Icons.account_circle_rounded, color: Colors.white,),
+          Icon(
+            Icons.ac_unit,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.adb_rounded,
+            color: Colors.white,
+          ),
+          Icon(
+            Icons.account_circle_rounded,
+            color: Colors.white,
+          ),
         ],
       ),
     );
