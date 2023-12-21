@@ -140,11 +140,7 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
         oldIndex = -1;
         buildChildren();
       });
-      Future.delayed(widget.duration, () {
-        setState(() {
-          oldIndex = index;
-        });
-      });
+      oldIndex = index;
       animationController.forward();
       widget.onChange(index);
     }

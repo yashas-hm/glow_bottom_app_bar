@@ -14,3 +14,7 @@
 ## 1.2.1
 
 * Fixed README.md and pubspec.yaml for scoring
+
+## 1.2.2
+
+* Fixed minor bug causing issue when on click in between transition.
