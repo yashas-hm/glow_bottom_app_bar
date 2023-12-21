@@ -1,6 +1,6 @@
 # Glow Bottom App Bar
 
-Beautiful and easy to use glowing transition bottom app bar which s fully customizable.
+`GlowBottomAppBar` is a beautiful and easy to use widget which shows a glowing transition from when index changes and is fully customizable.
 
 ### **Show some ♥️ and star the repo to support the project**
 
@@ -48,13 +48,17 @@ class DemoScreen extends StatelessWidget {
 ![Simulator Screen Recording - iPhone 15 Pro Max - 2023-12-20 at 22 12 53](https://github.com/yashas-hm/glow_bottom_app_bar/assets/64674824/95946c22-7ebe-46c2-8f90-8b099c062354)
 
 
-You can customise using parameters like:
- - height
- - width
- - iconSize
- - duration
- - glowColor
- - background
- - shadowColor
+
+You can customise `glow_bottom_app_bar` using parameters like:
+
+`height`
+`width`
+`iconSize`
+`duration`
+`glowColor`
+`background`
+`shadowColor`
+`children`
+`selectedChildren`
 
 
