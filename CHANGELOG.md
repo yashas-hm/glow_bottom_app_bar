@@ -10,3 +10,7 @@
 
 * Disposing Animation Controller
 * Changes to SingleTickerProvideMixin
+
+## 1.2.1
+
+* Fixed README.md and pubspec.yaml for scoring
