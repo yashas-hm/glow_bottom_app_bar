@@ -18,3 +18,7 @@
 ## 1.2.2
 
 * Fixed minor bug causing issue when on click in between transition.
+
+## 1.2.3
+
+* Fixed minor bug showing dot below hollow icon
