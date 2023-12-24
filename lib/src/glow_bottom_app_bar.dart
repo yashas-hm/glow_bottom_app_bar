@@ -195,8 +195,8 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
                   width: widget.iconSize,
                   alignment: Alignment.center,
                   child: Container(
-                    height: 1,
-                    width: 1,
+                    height: 0.0001,
+                    width: 0.0001,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: widget.glowColor,
