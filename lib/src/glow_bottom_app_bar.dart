@@ -12,6 +12,7 @@ class GlowBottomAppBar extends StatefulWidget {
     this.duration = const Duration(milliseconds: 1000),
     this.glowColor = Colors.blueAccent,
     this.shadowColor = Colors.black26,
+    this.initialIndex = 0,
     this.background,
     this.width,
   });
@@ -19,6 +20,8 @@ class GlowBottomAppBar extends StatefulWidget {
   final List<Widget> children;
 
   final List<Widget> selectedChildren;
+
+  final int initialIndex;
 
   final Function(int) onChange;
 
@@ -62,6 +65,7 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
 
   @override
   void initState() {
+    oldIndex = widget.initialIndex;
     generateKeys();
     buildChildren();
 
@@ -156,7 +160,7 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
     SchedulerBinding.instance.addPostFrameCallback((_) {
       if (from == null) {
         setState(() {
-          from = getXOffset(0);
+          from = getXOffset(widget.initialIndex);
           createSlideAnim(from!, 0);
         });
       }

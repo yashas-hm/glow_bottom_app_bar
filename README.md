@@ -23,7 +23,6 @@ class DemoScreen extends StatelessWidget {
         onChange: (value) {
           print(value);
         },
-        // shadowColor: AppColors.white.withOpacity(0.15),
         background: Colors.black54,
         iconSize: 35,
         glowColor: Colors.redAccent,
@@ -60,5 +59,6 @@ You can customise `glow_bottom_app_bar` using parameters like:
 `shadowColor`
 `children`
 `selectedChildren`
+`initialIndex`
 
 

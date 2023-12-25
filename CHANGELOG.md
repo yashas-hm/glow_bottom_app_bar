@@ -22,3 +22,7 @@
 ## 1.2.3
 
 * Fixed minor bug showing dot below hollow icon
+
+## 1.3.0
+
+* Custom initial index
