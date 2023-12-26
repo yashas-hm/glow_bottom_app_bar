@@ -26,3 +26,7 @@
 ## 1.3.0
 
 * Custom initial index
+
+## 1.3.1
+
+* Widget update onChange

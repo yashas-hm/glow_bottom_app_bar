@@ -64,6 +64,21 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
   }
 
   @override
+  void didUpdateWidget(covariant GlowBottomAppBar oldWidget) {
+    if(oldIndex!=widget.initialIndex){
+      setState(() {
+        to = 0;
+        createSlideAnim(from!, to!);
+        oldIndex = -1;
+        buildChildren();
+      });
+      oldIndex = widget.initialIndex;
+      animationController.forward();
+    }
+    super.didUpdateWidget(oldWidget);
+  }
+
+  @override
   void initState() {
     oldIndex = widget.initialIndex;
     generateKeys();
