@@ -30,3 +30,7 @@
 ## 1.3.1
 
 * Widget update onChange
+
+## 1.4.0
+
+* Minor bug fix
