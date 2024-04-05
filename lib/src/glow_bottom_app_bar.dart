@@ -85,7 +85,6 @@ class _GlowBottomAppBarState extends State<GlowBottomAppBar>
       animationController.forward();
     }
     super.didUpdateWidget(oldWidget);
-    super.didUpdateWidget(oldWidget);
   }
 
   @override
