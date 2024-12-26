@@ -34,3 +34,7 @@
 ## 1.4.0
 
 * Minor bug fix
+
+## 1.5.0
+
+* Dependency update
