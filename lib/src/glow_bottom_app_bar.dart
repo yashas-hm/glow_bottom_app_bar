@@ -22,48 +22,48 @@ class GlowBottomAppBar extends StatefulWidget {
     this.width,
   });
 
-  /// [GlowBottomAppBar.children] is a list of widgets used to render widgets 
+  /// [GlowBottomAppBar.children] is a list of widgets used to render widgets
   /// to be shown in the bottom app bar
   final List<Widget> children;
 
-  /// [GlowBottomAppBar.selectedChildren] is a list of widgets used to denote 
+  /// [GlowBottomAppBar.selectedChildren] is a list of widgets used to denote
   /// the selected child  when an element from [GlowBottomAppBar.children] list is selected
   final List<Widget> selectedChildren;
 
-  /// [GlowBottomAppBar.initialIndex] is the index of 
+  /// [GlowBottomAppBar.initialIndex] is the index of
   /// [GlowBottomAppBar.children]'s widget to be rendered when instantiated
   final int initialIndex;
 
-  /// Callback function [GlowBottomAppBar.onChange] is used to fetch the index 
+  /// Callback function [GlowBottomAppBar.onChange] is used to fetch the index
   /// of selected [GlowBottomAppBar.children]
   final Function(int) onChange;
 
-  /// [GlowBottomAppBar.height] overrides the default height of the 
+  /// [GlowBottomAppBar.height] overrides the default height of the
   /// [GlowBottomAppBar]
   final double height;
 
-  /// [GlowBottomAppBar.width] overrides the default width of the 
+  /// [GlowBottomAppBar.width] overrides the default width of the
   /// [GlowBottomAppBar]
   final double? width;
 
-  /// [GlowBottomAppBar.iconSize] overrides the default size of the 
+  /// [GlowBottomAppBar.iconSize] overrides the default size of the
   /// [GlowBottomAppBar.children] and [GlowBottomAppBar.selectedChildren]
   final double iconSize;
 
-  /// [GlowBottomAppBar.duration] overrides the default duration of the 
-  /// [GlowBottomAppBar] 
+  /// [GlowBottomAppBar.duration] overrides the default duration of the
+  /// [GlowBottomAppBar]
   /// animation
   final Duration duration;
-  
-  /// [GlowBottomAppBar.glowColor] overrides the default glow color of the 
+
+  /// [GlowBottomAppBar.glowColor] overrides the default glow color of the
   /// [GlowBottomAppBar]
   final Color glowColor;
 
-  /// [GlowBottomAppBar.background] overrides the default background color of 
+  /// [GlowBottomAppBar.background] overrides the default background color of
   /// the [GlowBottomAppBar]
   final Color? background;
 
-  /// [GlowBottomAppBar.shadowColor] overrides the default shadow color of 
+  /// [GlowBottomAppBar.shadowColor] overrides the default shadow color of
   /// the [GlowBottomAppBar]
   final Color shadowColor;
 
