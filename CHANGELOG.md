@@ -42,3 +42,7 @@
 ## 1.5.1
 
 * Documentation Added
+
+## 1.5.2
+
+* Dart format fix
