@@ -38,3 +38,7 @@
 ## 1.5.0
 
 * Dependency update
+
+## 1.5.1
+
+* Documentation Added
